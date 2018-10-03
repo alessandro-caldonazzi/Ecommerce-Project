@@ -1,7 +1,6 @@
 # Ecommerce-Project
 This is a basic ecommerce made from 0
 
-
 DOCUMENTAZIONE ECOMMERCE PROJECT
 
 Cosa è Ecommerce Project: 
@@ -59,7 +58,6 @@ Per il corretto funzionamento occore un web server.
 
 2. Installazione database:
 Dirigiti all’indirizzo localhost/phpmyadmin, clicca su import e importa il database.sql
-
 
 
 
