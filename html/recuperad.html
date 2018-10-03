@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Recupera password account</title>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<div>
+		<h1>Recupera password</h1>
+		<p>Recupero della password tramite domanda di sicurezza.</p>
+    <form action="../php/pwdimenticatad.php" method="POST">
+    <label>Username</label>
+    <input type="text" name="user" class="in_login" placeholder="Nome Utente">
+    <br>
+    <label>Email</label>
+    <input type="text" name="email" class="in_login" placeholder="Email registrazione">
+    <br>
+    <label>Domanda di sicurezza</label>
+    <select id="dom" name="dom">
+    <option value="cane">Come si chiama il tuo cane?</option>
+    <option value="scuola">Dove hai frequentato la scuola elementare?</option>
+    <option value="madre">Come si chiama tua madre?</option>
+    <option value="martimonio">Anno di martimonio dei tuoi genitori?</option>
+    <option value="paese">Nome del paese in cui vivi?</option>
+  </select>
+  <label>Risposta</label>
+    <input type="text" name="risp" class="in_login" placeholder="Risposta">
+    <br>
+
+<button name="submit" class="btn_regis">Recupera</button>
+  </form>
+	</div>
+</body>
+</html>
