@@ -14,6 +14,8 @@ Cosa è Ecommerce Project:
 IN QUESTA SEZIONE VERRANNO ELENCATI I VARI FILE CON RELATIVA SPIEGAZIONE
 
 Html:	
+
+
 	login -->  è il lato client della schermata login
 	
 	register --> è il lato client della schermata di registrazione
@@ -32,14 +34,21 @@ Html:
 	Profilo --> è il lato client della schermata riguardante il profilo utente
 	
 Css:
+
+
 	style.css --> usato da cambiapw.html, login.html, recuperad.html, recuperam.html, profilo.html,
+	
         register.html e scelta.html
+	
 	style1.css --> usato da carrello.php, dashboard.php, 
+	
 
 
 
 
 Php: 
+
+
 	Cambiapw  --> lato server della schermata di cambio pw (accessibile da profilo)
 	
 	Carrello --> lato server e client del carrello 
@@ -69,6 +78,8 @@ INSTALLAZIONE
 Per il corretto funzionamento occore un web server.
 
 1. Installare xampp:
+
+
   	Scaricare xampp da questo link https://www.apachefriends.org/it/index.html  e intallalo.
 	
 	Avvia ora Xampp Control Panel e clicca su start di Apache e MySql.
